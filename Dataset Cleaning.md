@@ -10,9 +10,10 @@
 ## The following are all the processes to clean the dataset using Sql queries.
 
 First, saved the original copy of data as 'data_cleaning1.csv'
-'''sql
+```sql
 select * from Project_Practice.data_cleaning1;
-'''
+```
+
 OUT:
 
 
