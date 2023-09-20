@@ -88,6 +88,15 @@ OUT:
 
 
 
+<img width="1024" alt="5Ren City$Country" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/8f356b83-0272-4645-83ce-c1a8bdbf3698">
+
+<img width="912" alt="6Null Replace" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/8b177d1e-c128-40db-9fb8-08ae4d8204a1">
+
+<img width="911" alt="7no $ in salary" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/61a5810e-ee20-4755-93b4-cb0910186577">
+
+<img width="911" alt="8 no space in salary" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/6866d6ee-ced6-453a-8cb4-9041ac08a862">
+
+
 
 
 
