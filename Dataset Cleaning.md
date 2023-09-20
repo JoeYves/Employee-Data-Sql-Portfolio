@@ -22,7 +22,7 @@ OUT:
 
 
 
-* **Duplicates checking:**
+* *Duplicates checking:*
 
 We have to make sure that our dataset does not contain some repeatings data in its columns.
 
@@ -53,12 +53,18 @@ OUT:
 
 <hr>
 
-* *Now, let's split our Names into separately 2 columns.*
+* * split Name column into separately 2 columns.*
+
+WE can see that the column name has both first and second names joined together, so, it's better to separate them in different columns 'F_Name' and 'S_Name'.
 
 ```sql
-
+SELECT   substring_index(Name,' ',1) AS First_Name,
+		 substring_index(Name,' ',-1) AS Last_Name
+FROM  Project_Practice.no_duplicates; 
 ```
 OUT:
+
+
 
 <hr>
 
