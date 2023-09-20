@@ -15,7 +15,7 @@
 First, saved the original copy of data as 'data_cleaning1.csv'
 
 ```sql
-select * from Project_Practice.data_cleaning1;
+select * from Project_Practice.data_cleaning1;      1,0
 ```
 OUT:
 <img width="1098" alt="0data cleaning1" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/4130e1df-97b4-4324-af33-8968b39d363e">
@@ -27,19 +27,19 @@ OUT:
 We have to make sure that our dataset does not contain some repeatings data in its columns.
 
 ```sql
-SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
+SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      2,1
 group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
 OUT:
 
-<img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
+
 
 they are 35 duplicates. they should be removed and save table.
 
 ```sql
 WITH No_Duplicates AS      
-(select  distinct(Emp_ID)AS Dist_Emp_ID,TRIM(Name) AS Name,  
+(select  distinct(Emp_ID)AS Dist_Emp_ID,TRIM(Name) AS Name,           3,2
 Gender, Department,  Start_Date, FTE, 
 Employee_type,Salary,Work_location 
 from Project_Practice.data_cleaning1
@@ -49,7 +49,7 @@ Select * from Project_Practice.No_Duplicates ; -- save this table as 'no_duplica
 ```
 OUT:
 
-<img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
+<img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
 
 <hr>
 
@@ -59,11 +59,12 @@ WE can see that the column name has both first and second names joined together,
 
 ```sql
 SELECT   substring_index(Name,' ',1) AS First_Name,
-		 substring_index(Name,' ',-1) AS Last_Name
+		 substring_index(Name,' ',-1) AS Last_Name              4,3
 FROM  Project_Practice.no_duplicates; 
 ```
 OUT:
 
+<img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
 
 
 <hr>
