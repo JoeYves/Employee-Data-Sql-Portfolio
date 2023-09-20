@@ -53,7 +53,7 @@ OUT:
 
 <hr>
 
-<p> </p>
+* *Now, let's split our Names into separately 2 columns.*
 
 ```sql
 
