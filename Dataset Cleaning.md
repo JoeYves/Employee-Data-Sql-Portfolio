@@ -12,7 +12,7 @@
 
 ## The following are all the processes to clean the dataset using Sql queries.
 
-<p><span style="color:green";">First, saved the original copy of data as 'data_cleaning1.csv' </span></p>
+<p style="color:green">First, saved the original copy of data as 'data_cleaning1.csv'</p>
 
 ```sql
 select * from Project_Practice.data_cleaning1;
@@ -24,7 +24,7 @@ OUT:
 
 *Duplicates checking:*
 
-<p><span style="color:green">We have to make sure that our dataset does not contain some repeatings data in its columns.</p>
+<p><span style="color:green">We have to make sure that our dataset does not contain some repeatings data in its columns.</span></p>
 
 ```sql
 SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
