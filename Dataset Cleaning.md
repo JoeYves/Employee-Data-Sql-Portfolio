@@ -32,6 +32,7 @@ group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
 OUT:
+
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
 
 <p>they are 35 duplicates. they should be removed and save table.</p>
@@ -47,6 +48,7 @@ order by  Dist_Emp_ID
 Select * from Project_Practice.No_Duplicates ; -- save this table as 'no_duplicates' table;
 ```
 OUT:
+
 <img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
 
 <hr>
