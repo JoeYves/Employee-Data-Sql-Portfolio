@@ -1,5 +1,4 @@
 # EMPLOYEE-DATA-PORTFOLIO
-<img width="1098" alt="0data cleaning1" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/4130e1df-97b4-4324-af33-8968b39d363e">
 
 
 # PHASE 1: Data Cleaning
