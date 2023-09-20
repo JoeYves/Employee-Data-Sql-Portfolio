@@ -1,3 +1,6 @@
+# EMPLOYEE DATA PORTFOLIO
+![employee-data-Picture]()
+
 # PHASE 1: Data Cleaning
 
 
@@ -5,7 +8,7 @@
 
 First, saved the original copy of data as 'data_cleaning1.csv'
 
-* **Duplicates checking:** *
+* *Duplicates checking: *
   
 
 
