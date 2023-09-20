@@ -33,6 +33,8 @@ having count(Name)>1 ;
 ```
 OUT:
 
+<img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
+
 they are 35 duplicates. they should be removed and save table.
 
 ```sql
