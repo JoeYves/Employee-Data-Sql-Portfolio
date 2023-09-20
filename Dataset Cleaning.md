@@ -12,7 +12,7 @@
 
 ## The following are all the processes to clean the dataset using Sql queries.
 
-<p style="color:green">First, saved the original copy of data as 'data_cleaning1.csv'</p>
+First, saved the original copy of data as 'data_cleaning1.csv'
 
 ```sql
 select * from Project_Practice.data_cleaning1;
@@ -24,7 +24,7 @@ OUT:
 
 *Duplicates checking:*
 
-<p><span style="color:green">We have to make sure that our dataset does not contain some repeatings data in its columns.</span></p>
+We have to make sure that our dataset does not contain some repeatings data in its columns.
 
 ```sql
 SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
@@ -35,7 +35,7 @@ OUT:
 
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
 
-<p><span style="color:green">they are 35 duplicates. they should be removed and save table.</span></p>
+they are 35 duplicates. they should be removed and save table.
 
 ```sql
 WITH No_Duplicates AS      
