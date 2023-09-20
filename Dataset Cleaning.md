@@ -22,7 +22,7 @@ OUT:
 
 
 
-*Duplicates checking:*
+* **Duplicates checking:**
 
 We have to make sure that our dataset does not contain some repeatings data in its columns.
 
