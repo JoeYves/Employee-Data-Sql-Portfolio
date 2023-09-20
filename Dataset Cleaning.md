@@ -47,14 +47,8 @@ order by  Dist_Emp_ID
 Select * from Project_Practice.No_Duplicates ; -- save this table as 'no_duplicates' table;
 ```
 
-
-
-
-
-
-OUT:
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/0b626a5c-82e8-484c-99a1-f8fcf5f9d535">
-
+OUT:
 
 
 <hr>
