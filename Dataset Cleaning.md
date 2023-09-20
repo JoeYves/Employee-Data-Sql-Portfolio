@@ -22,7 +22,7 @@ OUT:
 
 
 
-### * *Duplicates checking:*
+*Duplicates checking:*
 
 We have to make sure that our dataset does not contain some repeatings data in its columns.
 
@@ -32,8 +32,8 @@ group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
 
-OUT:
-<img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/40201bf6-1402-4834-8f84-8c19f68cf73a">
+
+<img width="558" align= "center" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/40201bf6-1402-4834-8f84-8c19f68cf73a">
 
 they are 35 duplicates. they should be removed and save table.
 
@@ -48,7 +48,7 @@ order by  Dist_Emp_ID
 Select * from Project_Practice.No_Duplicates ; -- save this table as 'no_duplicates' table;
 ```
 
-OUT:
+
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/0b626a5c-82e8-484c-99a1-f8fcf5f9d535">
 
 
