@@ -1,18 +1,18 @@
 <h1 style= "color= green" > EMPLOYEE-DATA-PORTFOLIO </h1>
-<hr color:'red'>
+<hr>
 
 ![employee-data-Picture](https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/3579d4c1-a00d-47b0-aa0f-f4a41ded7b52)
 <hr>
 
 
 # PHASE 1: Data Cleaning 
-<hr color:'red'>
+<hr>
 
 
 
 ## The following are all the processes to clean the dataset using Sql queries.
 
-<p><span style="font-size:12px;"color:green";">First, saved the original copy of data as 'data_cleaning1.csv' </span></p>
+<p><span style="color:green";">First, saved the original copy of data as 'data_cleaning1.csv' </span></p>
 
 ```sql
 select * from Project_Practice.data_cleaning1;
@@ -24,7 +24,7 @@ OUT:
 
 *Duplicates checking:*
 
-<p><span style="font-size:12px;"color:green";">We have to make sure that our dataset does not contain some repeatings data in its columns.</p>
+<p><span style="font-size:12px,color:green">We have to make sure that our dataset does not contain some repeatings data in its columns.</p>
 
 ```sql
 SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
@@ -35,7 +35,7 @@ OUT:
 
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
 
-<p><span style="font-size:12px;"color:green";">they are 35 duplicates. they should be removed and save table.</span></p>
+<p><span style="font-size:12px;color:green">they are 35 duplicates. they should be removed and save table.</span></p>
 
 ```sql
 WITH No_Duplicates AS      
