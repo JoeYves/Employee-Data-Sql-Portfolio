@@ -51,7 +51,7 @@ Select * from Project_Practice.No_Duplicates ;          -- save this table as 'n
 
 OUT:
 
-<img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
+<img width="977" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/be3a57be-8d94-4428-8e7c-2c37a984af0e">
 
 <hr>
 
@@ -66,7 +66,7 @@ FROM  Project_Practice.no_duplicates;
 ```
 OUT:
 
-<img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
+<img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/5614a53a-daf0-4faf-a22a-76ffc8f7b45b">
 
 Now we have 2 separate column names,then let join them to form a new table, and save changes.
 
@@ -83,7 +83,7 @@ order by  Dist_Emp_ID;                                                 5,4
 ```
 OUT:
 
-
+<img width="1024" alt="4Ren City$Country" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/20036548-2562-47c1-889e-b64a08729921">
 
 <hr>
 
@@ -108,8 +108,7 @@ from  Project_Practice.No_Duplicates ;                                          
 ```
 OUT:
 
-
-
+<img width="912" alt="5Null Replace" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/d227b35a-ff59-4b7b-8a4a-49a82a8f9e86">
 
 <hr>
 
@@ -128,6 +127,7 @@ where Salary_NoBlank like '%$%'                             /* you can even use 
 ```
 OUT:
 
+<img width="911" alt="6no $ in salary" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/00945d94-6ebb-49bc-bbc4-14dc9e19e236">
 
 
 * *Removing spaces and comma in salary_noblank column.*
@@ -139,15 +139,15 @@ we have also to change its data type from text to double as well.
 set sql_safe_updates=0;
 
 update  Project_Practice.no_duplicates 
-set Salary_NoBlank =trim(replace(Salary_NoBlank,',',''));        -- save changes again as 'no_duplicates' table.
+set Salary_NoBlank =trim(replace(Salary_NoBlank,',',''));        -- save changes again as 'no_duplicates' table.      8,7
 ```
 OUT:
 
-
+<img width="911" alt="7 no space in salary" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/093b2b5a-52a3-48c7-b3b5-6377851a484c">
 
 <hr>
 
-### *cleaning Continues...*
+### *Cleaning continues...*
 
 
 * *Change 'Salary_NoBlank' type from text to decimal.*
