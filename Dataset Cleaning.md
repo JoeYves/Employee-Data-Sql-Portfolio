@@ -17,6 +17,7 @@ First, saved the original copy of data as 'data_cleaning1.csv'
 ```sql
 select * from Project_Practice.data_cleaning1;      1,0
 ```
+
 OUT:
 <img width="1098" alt="0data cleaning1" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/4130e1df-97b4-4324-af33-8968b39d363e">
 
@@ -31,6 +32,7 @@ SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      2,1
 group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
+
 OUT:
 
 
@@ -47,6 +49,7 @@ order by  Dist_Emp_ID
 )
 Select * from Project_Practice.No_Duplicates ;          -- save this table as 'no_duplicates' table
 ```
+
 OUT:
 
 <img width="800" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/c92060ad-603d-4f2c-b86d-1658198501de">
@@ -274,6 +277,7 @@ change Salary_NoBlank Salary double;
 select * from Project_Practice.no_duplicates;
 ```
 Now we can put back $ sing to salary column.
+
 ``sql
 alter table Project_Practice.no_duplicates
 change Salary `Salary $` double;
