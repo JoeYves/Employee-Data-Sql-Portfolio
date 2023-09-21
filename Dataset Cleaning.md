@@ -222,7 +222,64 @@ select Dist_Emp_ID, First_Name, Last_Name, Gender_NoBlank,
        City_Location, Country_Location, FTE
 from  Project_Practice.no_duplicates;
 ```
+<hr>
 
+* *let's do the Data Validation again.*
+
+```sql
+select count(Dist_Emp_ID),Dist_Emp_ID
+from Project_Practice.no_duplicates
+group by Dist_Emp_ID
+having count(Dist_Emp_ID) > 1
+```
+4 duplicates are found and they should be removed, let's remove them. 
+```sql
+select DISTINCT(Dist_Emp_ID) ,
+       First_Name, Last_Name, Gender_NoBlank, 
+       Department_noNULL,Salary_NoBlank,Str_Date,FTE, Employee_type, 
+       City_Location, Country_Location 
+from Project_Practice.no_duplicates;
+```
+WELL !, Now we can save changes or, we may use temporary table method to do so, and down is the method.
+
+```sql
+use  Project_Practice;
+create table temporaryTable_delete_duplicates 
+      select distinct * from Project_Practice.no_duplicates;
+
+-- we can delete the recent table 'no_duplicates'
+drop table Project_Practice.no_duplicates;
+
+-- we rename this 'temporaryTable_delete_duplicates 'to 'no_duplicates' again as changed
+alter table temporaryTable_delete_duplicates rename no_duplicates;  
+```
+<hr>
+
+* *Rename columns as new ones in clean a dataset*
+
+```sql
+alter table Project_Practice.no_duplicates
+change Dist_Emp_ID Emp_ID  Varchar(60) primary key,
+change First_Name F_Name  Varchar(60),
+change Last_Name L_Name  Varchar(60),
+change Gender_NoBlank Gender Varchar(60),
+change Department_noNULL Department Varchar(60),
+change FTE FTE Varchar(60),
+change Employee_type Employee_type Varchar(60),
+change City_Location City Varchar(60),
+change Country_Location Country Varchar(60),
+change Str_Date Date date,
+change Salary_NoBlank Salary double;
+
+select * from Project_Practice.no_duplicates;
+```
+Now we can put back $ sing to salary column.
+``sql
+alter table Project_Practice.no_duplicates
+change Salary `Salary $` double;
+```
+
+*DONE*.
 
 
 
