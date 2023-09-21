@@ -17,8 +17,8 @@ First, saved the original copy of data as 'data_cleaning1.csv'
 ```sql
 select * from Project_Practice.data_cleaning1;      1,0
 ```
-
 OUT:
+
 <img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/ffe021ae-07c8-4265-8705-4aa226717b38">
 
 
@@ -33,7 +33,6 @@ having count(Name)>1 ;
 ```
 
 OUT:
-
 <img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/ffe021ae-07c8-4265-8705-4aa226717b38">
 
 they are 35 duplicates. they should be removed and save table.
