@@ -32,7 +32,6 @@ SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      2,1
 group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
-
 OUT:
 <img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/ffe021ae-07c8-4265-8705-4aa226717b38">
 
@@ -121,7 +120,7 @@ update Project_Practice.no_duplicates
 set Salary_NoBlank=replace(Salary_NoBlank,'$',' ')                                  7,6
 where Salary_NoBlank like '%$%'                             /* you can even use this "
                                                                                    select replace( Salary_NoBlank,'$','') as New_salary
-                                                                                   from Project_Practice.split_names_date1 " 
+                                                                                   from Project_Practice.no_duplicates " 
                                                                                    then delete the original column to remain whith the new one
                                                             /*  
 ```
