@@ -17,10 +17,9 @@ First, saved the original copy of data as 'data_cleaning1.csv'
 ```sql
 select * from Project_Practice.data_cleaning1;      1,0
 ```
-
 OUT:
-<img width="1098" alt="0data cleaning1" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/4130e1df-97b4-4324-af33-8968b39d363e">
 
+<img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/ffe021ae-07c8-4265-8705-4aa226717b38">
 
 
 * *Duplicates checking:*
