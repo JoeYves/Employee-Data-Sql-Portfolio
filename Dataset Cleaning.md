@@ -68,6 +68,7 @@ FROM  Project_Practice.no_duplicates;
 OUT:
 
 <img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
+
 Now we have 2 separate column names,then let join them to form a new table, and save changes.
 
 ```sql
@@ -75,7 +76,7 @@ select  Dist_Emp_ID, substring_index(Name,' ',1) AS First_Name,
                      substring_index(Name,' ',-1) AS Last_Name,  
                      Gender, Department, Salary, Start_Date, FTE,
                      Employee_type,
-                     /* .*/                                         
+                                                          
 					 trim(substring_index(Work_location,',',1)) AS  City_Location, 
                      trim(substring_index(Work_location,',',-1)) AS Country_Location
 from Project_Practice.No_Duplicates
