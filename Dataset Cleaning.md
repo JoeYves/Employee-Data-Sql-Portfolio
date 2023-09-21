@@ -68,7 +68,7 @@ FROM  Project_Practice.no_duplicates;
 OUT:
 
 <img width="207" alt="3Renaming Name" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/410868b0-7ccb-4002-8ad7-aa59b925c103">
- Now we have 2 separate column names,then let join them to form a new table, and save changes.
+Now we have 2 separate column names,then let join them to form a new table, and save changes.
 
 ```sql
 select  Dist_Emp_ID, substring_index(Name,' ',1) AS First_Name, 
@@ -277,8 +277,7 @@ change Salary_NoBlank Salary double;
 select * from Project_Practice.no_duplicates;
 ```
 Now we can put back $ sing to salary column.
-
-``sql
+```sql
 alter table Project_Practice.no_duplicates
 change Salary `Salary $` double;
 ```
