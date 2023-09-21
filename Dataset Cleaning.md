@@ -31,8 +31,8 @@ SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      2,1
 group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
-
 OUT:
+
 <img width="558" alt="1Duplicates" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/ffe021ae-07c8-4265-8705-4aa226717b38">
 
 they are 35 duplicates. they should be removed and save table.
@@ -47,7 +47,6 @@ order by  Dist_Emp_ID
 )
 Select * from Project_Practice.No_Duplicates ;          -- save this table as 'no_duplicates' table
 ```
-
 OUT:
 
 <img width="977" alt="2duplicates removed" src="https://github.com/JoeYves/Employee-Data-Sql-Portfolio/assets/128157898/be3a57be-8d94-4428-8e7c-2c37a984af0e">
