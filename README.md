@@ -3,7 +3,9 @@
 this repository is created to do data exploration on a dataset 'Employee Data'. As this is my first data exploration project, I used the dataset from internet randomly and got it from unknown resource.
 This dataset contains:
 
-* *9 Columns** :  *- Emp_ID as Text                           
+* *9 Columns** :
+  
+                  *- Emp_ID as Text                           
                    - Name as Text
                    - Gender as Text 
                    - Department as Text
