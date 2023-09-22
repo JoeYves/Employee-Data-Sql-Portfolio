@@ -35,11 +35,11 @@ I have been using SQL queries to do some EDA and cleaning to try to understand t
 After Some EDA, I tried to do some short analysis on a tidy data so that I can get some insights to draw a meaningful conlusion.
 Here are some Questions I imposed to do my analysis :
 
-Q1. what are Gender breaktdown of employee ?
-Q2. what are Employee_type's breakdown ?
-Q3. How many Male and female that work permanently in the company ?
-Q4. where do many employees come from ?  
-Q5. What is the Salary distribution in the company ? ( Salary Range like how salary is spread in company )
+1. what are Gender breaktdown of employee ?
+2. what are Employee_type's breakdown ?
+3. How many Male and female that work permanently in the company ?
+4. where do many employees come from ?  
+5. What is the Salary distribution in the company ? ( Salary Range like how salary is spread in company )
 <hr>
 
 Down here are some findings that were reflected to draw a better conclusion.
