@@ -39,7 +39,7 @@ Here are some Questions I imposed to do my analysis :
 2. what are Employee_type's breakdown ?
 3. How many Male and female that work permanently in the company ?
 4. where do many employees come from ?  
-5. What is the Salary distribution in the company ? ( Salary Range like how salary is spread in company )
+5. What is the Salary distribution in the company ? 
 <hr>
 
 Down here are some findings that were reflected to draw a better conclusion.
