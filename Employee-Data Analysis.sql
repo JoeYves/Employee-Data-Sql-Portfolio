@@ -105,6 +105,6 @@ ORDER BY CAST(SUBSTRING_INDEX(Salary_group, '-', 1) AS SIGNED) ASC;
 -- Q6. HOW DOES THE GENDER DISTRIBUTION VARY ACROSS DEPARTMENTS ?
 select gender,department, count(*) as count from Project_Practice.final_cleaned
 group by gender,department
-order by count(*);                     -- most of male are in Accounting, and most of female are in Training..
+order by count(*);                     -- most of male are in Accounting, and most of female are in Training...
 
 
