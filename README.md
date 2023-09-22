@@ -4,15 +4,15 @@ this repository is created to do data exploration on a dataset 'Employee Data'. 
 This dataset contains:
 
 * *9 Columns** :
-  
-                  *- Emp_ID as Text                           
-                   - Name as Text
-                   - Gender as Text 
-                   - Department as Text
-                   - Salary as Text
-                   - Start_Date Text 
-                   - FTE as Double
-                   - Employee_type as Text
-                   - Work_location* as Text
-
+** 
+- Emp_ID as Text                           
+- Name as Text
+- Gender as Text 
+- Department as Text
+- Salary as Text
+- Start_Date Text 
+- FTE as Double
+- Employee_type as Text
+- Work_location* as Text
+**
 * **Rows** : 276
