@@ -1,0 +1,277 @@
+Emp_ID,Name,Gender,Department,Salary,Start_Date,FTE,Employee_type,Work_location
+PR00147,Minerva Ricardot,Male,NULL,"$105,468.70 ",12-Nov-18,1,Permanent,Remote
+PR04686,Oona Donan,Female,Business Development,"$88,360.79 ",02/09/2019,1,Permanent,"Seattle, USA"
+SQ04612,Mick Spraberry,Female,Services,"$85,879.23 ",12/03/2020,1,Permanent,Remote
+VT01803,Freddy Linford,Female,Training,"$93,128.34 ","Mar 5, 2018",1,Fixed Term,"Seattle, USA"
+TN02749,Mackenzie Hannis,Female,Training,"$57,002.02 ",02-Apr-18,0.7,Permanent,"Hyderabad, India"
+SQ00144,Collen Dunbleton,Male,Engineering,"$118,976.16 ","Oct 16, 2020",1,Permanent,"Wellington, New Zealand"
+PR04601,Nananne Gehringer,,Support,"$104,802.63 ",02/11/2021,1,Permanent,"Hyderabad, India"
+SQ01854,Jessica Callcott,Female,Marketing,"$66,017.18 ",27/06/2019,0.9,Permanent,Remote
+SQ00612, Leena Bruckshaw,Male,Research and Development,"$74,279.01 ",01/01/2019,1,Permanent,"Wellington, New Zealand"
+PR00419,Billi Fellgate,Female,Business Development,"$68,980.52 ",29/01/2019,0.8,Permanent,Remote
+VT00578,Magnum Locksley,Female,Services,"$42,314.39 ","Oct 18, 2021",1,Fixed Term,Remote
+TN01281,Cletus McGarahan ,Female,Engineering,"$114,425.19 ",27-Jan-20,1,Permanent,"Wellington, New Zealand"
+PR04473, Wyn Treadger,Female,Business Development,"$69,192.85 ",19-Apr-21,1,Permanent,"Columbus, USA"
+VT02417,Evangelina Lergan,Male,Support,"$61,214.26 ",12-Mar-18,1,Temporary,"Auckland, New Zealand"
+SQ00691,Verla Timmis,Male,Support,"$54,137.05 ",25-Oct-19,1,Permanent,Remote
+TN00214,Jo-anne Gobeau,Female,Training,"$37,902.35 ","Dec 24, 2019",1,Permanent,"Chennai, India"
+VT02539,Devinne Tuny,Male,Engineering,"$39,969.72 ",10-Dec-18,1,Temporary,"Columbus, USA"
+SQ04598,Pearla  Beteriss,Male,Services,"$69,913.39 ",29/04/2019,1,Permanent,Remote
+TN00464,Maritsa Marusic,Male,Research and Development,"$52,748.63 ",27-Jan-20,1,Permanent,"Chennai, India"
+PR00893,Daisie McNeice,Male,Human Resources,"$50,310.09 ",30/03/2021,0.4,Permanent,"Hyderabad, India"
+PR00882, Jill Shipsey,Male,Accounting,"$52,963.65 ",02/04/2021,0.3,Permanent,"Columbus, USA"
+PR03445,Myrle Prandoni,Male,Sales,"$62,195.47 ",26-Aug-21,1,Permanent,Remote
+TN03416,Seward Kubera,Male,Engineering,"$43,329.22 ",10/12/2019,0.5,Fixed Term,Remote
+TN00890,Dean Biggam,Female,Training,"$71,570.99 ",22-Feb-21,0.5,Permanent,"Hyderabad, India"
+VT04137,Marissa Infante,,Training,"$78,840.23 ",17/06/2019,1,Temporary,Remote
+PR02603,Daisie Dahlman,Female,Human Resources,"$61,994.76 ",25/11/2019,0.3,Permanent,"Hyderabad, India"
+PR03158,Danica Nayshe,Female,Services,"$89,690.38 ",16/04/2018,1,Permanent,"Wellington, New Zealand"
+PR02288,Althea  Bronger,Male,Product Management,"$104,335.04 ",13/02/2020,1,Permanent,"Columbus, USA"
+VT03849,Leonidas Cavaney,Male,Accounting,"$52,246.29 ",18-Apr-19,1,Temporary,"Wellington, New Zealand"
+SQ01395,Dennison Crosswaite,Male,Legal,"$90,697.67 ",25/01/2021,0.8,Permanent,"Seattle, USA"
+SQ02559,Aldrich  Glenny,Male,Business Development,"$90,884.32 ",27-Dec-19,1,Permanent,"Columbus, USA"
+VT04627,Yvette  Bett,Male,Human Resources,"$76,320.44 ",06/07/2021,0.8,Temporary,Remote
+VT03537,Renaldo Thomassin,Male,Business Development,"$73,360.38 ",21/05/2020,1,Temporary,Remote
+PR01951,Aloise MacCathay ,Male,NULL,,"Aug 12, 2020",0.7,Permanent,"Auckland, New Zealand"
+PR01662,Genevra Friday,Female,Research and Development,"$50,449.46 ",14-Nov-18,0.8,Permanent,"Auckland, New Zealand"
+VT02313,Thekla Lynnett,Male,Training,"$53,949.26 ",09/12/2019,1,Temporary,"Columbus, USA"
+SQ01620,Westbrook Brandino,Male,Legal,"$113,616.23 ",04/06/2018,1,Permanent,Remote
+VT04681,Nickolai  Artin,Female,Product Management,"$110,906.35 ","Nov 30, 2018",1,Temporary,"Wellington, New Zealand"
+TN04246,Shaylyn Ransbury ,Female,Support,"$100,371.31 ",24/08/2020,0.8,Fixed Term,"Auckland, New Zealand"
+TN02570,Grady Rochelle,Female,Accounting,"$69,163.39 ",24/10/2018,1,Permanent,Remote
+VT02801,Shellysheldon Mahady,Male,Training,"$114,691.03 ",27-Jul-20,1,Temporary,"Wellington, New Zealand"
+SQ01177,Riccardo Hagan,Male,Human Resources,"$86,556.96 ",30-Sep-20,1,Permanent,"Hyderabad, India"
+VT01740,Ginger  Myott,Female,Services,"$31,172.77 ",19-Jul-19,1,Fixed Term,Remote
+TN01876,Aileen McCritchie,Male,Business Development,"$80,169.42 ",10-Aug-20,1,Permanent,"Auckland, New Zealand"
+VT02313,Thekla Lynnett,Male,Training,"$53,949.26 ",09/12/2019,1,Temporary,"Columbus, USA"
+VT03988,Oby Sorrel,Female,Support,"$58,935.92 ",09-Sep-19,1,Temporary,"Hyderabad, India"
+TN00227,Lincoln Cord,Female,Support,"$63,555.73 ",24-Nov-20,1,Permanent,"Chennai, India"
+VT01092,Tabby  Astall,Male,Accounting,"$57,419.35 ",24/07/2018,1,Fixed Term,"Auckland, New Zealand"
+TN03169,Doe Clubley,Female,Product Management,"$67,818.14 ","Nov 2, 2018",0.6,Fixed Term,Remote
+SQ01402,Julietta Culross,Female,NULL,"$44,403.77 ",12/11/2018,1,Permanent,"Hyderabad, India"
+SQ00360,Orlando Gorstidge ,Male,Marketing,"$40,753.54 ",21/02/2018,0.6,Permanent,"Wellington, New Zealand"
+PR02208,Vernor Atyea,Female,Training,"$102,934.09 ",29-Apr-21,1,Permanent,"Hyderabad, India"
+SQ01637, Joaquin McVitty,Male,Sales,"$68,860.40 ",12/02/2019,0.4,Permanent,"Columbus, USA"
+TN03210,Kellsie Waby,Male,Training,"$79,567.69 ",21/06/2018,1,Fixed Term,"Chennai, India"
+PR03844,Brose MacCorkell,Female,Human Resources,"$35,943.62 ",04/09/2020,1,Permanent,"Columbus, USA"
+VT04093,Ewart Hovel,Female,Training,"$116,767.63 ",28/04/2020,0.4,Temporary,"Chennai, India"
+SQ02246,Matias Cormack ,Male,Research and Development,"$85,455.53 ",09/01/2020,1,Permanent,"Wellington, New Zealand"
+TN03032,Debera Gow ,Female,Research and Development,"$39,700.82 ",07/01/2021,0.8,Permanent,"Chennai, India"
+SQ00914,Ansley Gounel,Female,Product Management,"$38,438.24 ","May 11, 2020",1,Permanent,"Chennai, India"
+SQ02525,Mickie Dagwell,Male,Engineering,"$50,855.53 ","Jan 25, 2021",1,Permanent,"Wellington, New Zealand"
+TN02667,Lizzie Mullally,Male,Support,$0.00 ,16-Sep-19,0.2,Permanent,"Auckland, New Zealand"
+PR02782,Isaak Rawne,Male,Marketing,"$37,362.30 ",26-Jun-19,1,Permanent,"Auckland, New Zealand"
+TN03331,Crawford Scad,Male,Human Resources,"$72,876.91 ",27-May-19,0.4,Fixed Term,"Auckland, New Zealand"
+VT01249,Brendan  Edgeller,Female,Legal,"$31,042.51 ",04/10/2021,0.3,Fixed Term,Remote
+PR00576,Lion  Adcock,Female,Legal,"$63,705.40 ",05/08/2019,1,Permanent,"Hyderabad, India"
+VT02260,Rhiamon Mollison,Female,Research and Development,"$59,434.18 ",10-Apr-20,1,Temporary,"Seattle, USA"
+TN02883,Iain Wiburn,Female,Sales,"$84,762.76 ",20/08/2018,1,Permanent,"Hyderabad, India"
+SQ03024,Inge Creer,Female,Services,"$69,057.32 ",17/10/2018,1,Permanent,"Wellington, New Zealand"
+TN04428,Tadio Audritt,,Human Resources,"$99,448.78 ",08-Jan-19,1,Fixed Term,"Wellington, New Zealand"
+SQ03350,Felice McMurty,Female,Product Management,"$66,865.49 ",18-Feb-19,1,Permanent,"Seattle, USA"
+VT03421,Alic Bagg,Male,Legal,"$113,747.56 ",15-Mar-21,0.7,Temporary,"Columbus, USA"
+PR01346,Adolph McNalley,Male,Business Development,"$85,918.61 ",05-Feb-18,1,Permanent,"Columbus, USA"
+VT02118,Northrop Reid,Female,NULL,"$51,165.37 ",10-Feb-21,1,Fixed Term,"Hyderabad, India"
+PR00210,Marquita Liquorish,Female,Legal,,29/06/2020,1,Permanent,"Wellington, New Zealand"
+TN02496,Anjanette Ferre,,Human Resources,"$67,957.90 ",26/11/2018,1,Permanent,"Chennai, India"
+VT02491,Alexis Gotfrey,Male,Engineering,"$114,465.93 ",10/07/2018,1,Temporary,"Wellington, New Zealand"
+PR03980, Kath Bletsoe,Male,Marketing,"$65,699.02 ",30-Apr-20,1,Permanent,"Columbus, USA"
+VT03307,Tallie Chaikovski,Male,Sales,"$83,191.95 ",23/08/2019,0.6,Temporary,Remote
+TN04058,Bari Toffano,Male,Product Management,"$106,775.14 ",08/04/2019,1,Fixed Term,"Hyderabad, India"
+VT03993,Dulce Colbeck,Male,Human Resources,"$83,396.50 ",30-Mar-21,1,Temporary,"Auckland, New Zealand"
+VT02663,Ignacius Losel,Male,Legal,"$28,481.16 ",01-Feb-21,1,Temporary,"Chennai, India"
+PR03034,Estell Kingsland,Male,Sales,"$32,192.15 ",04-Oct-21,1,Permanent,"Hyderabad, India"
+PR01159,Mollie  Hanway,Male,NULL,"$112,645.99 ",21-Oct-19,0.6,Permanent,"Seattle, USA"
+SQ03476,Inger Andriveaux,,Accounting,"$107,107.60 ",13-Aug-18,0.9,Permanent,"Chennai, India"
+PR04380,Van Tuxwell,Female,Business Development,"$80,695.74 ",18-Nov-19,0.8,Permanent,"Columbus, USA"
+TN00182,Camilla Castle,Female,Product Management,"$75,475.93 ","Nov 25, 2019",1,Permanent,Remote
+VT01523,Charmane Heistermann,Female,Business Development,"$86,558.58 ",26-Feb-20,1,Fixed Term,Remote
+PR00916,Inger Chapelhow,Female,Research and Development,"$84,309.95 ",01/11/2021,1,Permanent,Remote
+PR01211,Enoch Dowrey,Male,Accounting,"$91,645.04 ",27/01/2021,1,Permanent,"Auckland, New Zealand"
+VT01684,Audry Yu,Female,Training,"$101,187.36 ",07/06/2018,1,Fixed Term,"Columbus, USA"
+TN01876,Aileen McCritchie,Male,Business Development,"$80,169.42 ",10-Aug-20,1,Permanent,"Auckland, New Zealand"
+TN04740,Tristam Cuming,Female,Support,"$104,038.90 ",16/12/2019,1,Fixed Term,Remote
+TN03575,Janina Wolverson,Female,Research and Development,"$99,683.67 ",04-Feb-19,1,Fixed Term,"Seattle, USA"
+VT04984,Dell Molloy,Male,Engineering,"$47,362.62 ",22-May-20,1,Temporary,Remote
+PR00095,Ardella Dyment,Female,Business Development,"$70,649.46 ",13-Jan-20,1,Permanent,"Hyderabad, India"
+SQ03546,Alexandros Rackley,Female,Legal,"$75,733.74 ","Jul 5, 2021",1,Permanent,"Hyderabad, India"
+VT02374,Delphine Jewis,Female,Accounting,"$71,823.56 ","Oct 1, 2018",0.3,Temporary,Remote
+SQ00450, Louise Lamming,Female,Sales,"$41,934.71 ",22/04/2020,1,Permanent,Remote
+PR03804,Vere Kulic,Male,Legal,"$66,572.58 ",28-Dec-20,1,Permanent,"Chennai, India"
+SQ04488,Yanaton Wooster,Male,Marketing,"$76,932.60 ",28-Jan-19,1,Permanent,"Hyderabad, India"
+TN00735,Caresa Christer,Male,Support,"$59,258.19 ",18/12/2018,0.8,Permanent,"Seattle, USA"
+VT01893,Lindy Guillet,Male,Training,"$112,778.28 ",30/05/2018,1,Fixed Term,Remote
+SQ02223, Pippy Shepperd,Female,Accounting,"$44,845.33 ",26-Jun-18,1,Permanent,"Seattle, USA"
+PR02010,Eilis Pavlasek,Male,Product Management,"$115,191.38 ",22/06/2020,1,Permanent,"Hyderabad, India"
+SQ00498,Amery Ofer,Female,Legal,"$111,049.84 ",16/07/2021,1,Permanent,"Wellington, New Zealand"
+PR02113,Beverie Moffet,Female,Support,"$75,974.99 ",07-Dec-20,1,Permanent,Remote
+TN00727,Dulsea Folkes,Female,Services,"$42,161.77 ","Jan 29, 2019",1,Permanent,"Auckland, New Zealand"
+SQ01697,Frasier Straw,Male,Business Development,"$71,371.37 ",19/10/2018,1,Permanent,"Hyderabad, India"
+SQ01519,Caron Kolakovic,Male,Accounting,"$49,915.14 ",26-Mar-19,1,Permanent,Remote
+PR00210,Marquita Liquorish,Female,Legal,$0.00 ,29/06/2020,1,Permanent,"Wellington, New Zealand"
+VT03500,Floyd  Cowgill,Male,Support,"$37,062.10 ",10/06/2021,1,Temporary,"Chennai, India"
+SQ01962,Lezlie Philcott,Female,Research and Development,$0.00 ,08/02/2019,1,Permanent,Remote
+VT00017,Maible Azemar,Male,Accounting,,03/09/2020,1,Fixed Term,"Columbus, USA"
+SQ02559,Aldrich  Glenny,Male,Business Development,"$90,884.32 ",27-Dec-19,1,Permanent,"Columbus, USA"
+TN01210,Alyosha Riquet,Male,Legal,"$89,838.77 ",17/05/2019,1,Permanent,Remote
+SQ02051,Dave Lacoste,Male,Legal,$0.00 ,"Sep 23, 2021",1,Permanent,"Chennai, India"
+SQ03321,Gradey Litton,Female,Accounting,"$68,887.84 ",16/07/2018,1,Permanent,Remote
+TN04058,Bari Toffano,Male,Product Management,"$106,775.14 ",08/04/2019,1,Fixed Term,"Hyderabad, India"
+SQ00841,Danica Nayshe,Female,Services,"$89,690.38 ",23-Apr-18,1,Permanent,"Hyderabad, India"
+SQ04603,Natalee Craiker,Male,Product Management,"$111,229.47 ",29-Oct-18,1,Permanent,Remote
+TN01028,Alicea Pudsall,Male,Accounting,"$67,633.85 ",28/08/2018,1,Permanent,"Columbus, USA"
+VT04028,Michale Rolf,Male,Services,"$111,815.49 ",05/03/2020,0.7,Temporary,Remote
+TN03068,Dare Tully,Male,Business Development,"$39,784.24 ",31-Dec-18,1,Fixed Term,"Chennai, India"
+VT03701,Richy Gray,Female,Product Management,"$89,829.33 ",25/11/2019,1,Temporary,"Chennai, India"
+VT04028,Michale Rolf,Male,Services,"$111,815.49 ",05/03/2020,0.7,Temporary,Remote
+TN04101,Marline Wahncke,Male,Legal,"$72,843.23 ",29/06/2018,1,Fixed Term,"Wellington, New Zealand"
+VT02374,Delphine Jewis,Female,Accounting,"$71,823.56 ","Oct 1, 2018",0.3,Temporary,Remote
+TN01632,Katya Hundy,Male,Business Development,"$88,511.17 ","Apr 29, 2020",1,Permanent,"Columbus, USA"
+PR01956, Jamesy O'Ferris,Male,Accounting,"$36,547.58 ",12/11/2018,1,Permanent,Remote
+PR02140,Fanchon Furney,Male,Accounting,"$95,954.02 ",12/04/2019,0.3,Permanent,"Hyderabad, India"
+SQ03626,Easter Pyke,Female,Training,"$95,677.90 ",19-Jul-21,0.3,Permanent,"Chennai, India"
+VT01610,Gilles Jaquet,Female,Accounting,"$76,303.82 ",24/12/2018,1,Fixed Term,"Hyderabad, India"
+TN00129,Grazia Bunkle,Female,Research and Development,,14/03/2019,1,Permanent,"Auckland, New Zealand"
+TN01340,Granny Spencelayh,Male,Legal,"$99,460.78 ","May 5, 2020",1,Permanent,Remote
+TN00698,Barbara-anne Kenchington,Female,Support,"$88,034.67 ",23/07/2019,1,Permanent,Remote
+SQ00960,Calvin O'Carroll,Female,Research and Development,"$44,447.26 ",16/01/2020,0.4,Permanent,"Seattle, USA"
+SQ01998,Layton Crayden,Male,Product Management,"$40,445.29 ",16/07/2021,1,Permanent,"Chennai, India"
+PR04446,Giffer Berlin,Female,Research and Development,"$92,336.08 ",23/08/2021,1,Permanent,"Hyderabad, India"
+SQ01283,Barr Faughny,Female,Marketing,"$68,008.55 ",19/08/2020,1,Permanent,"Auckland, New Zealand"
+SQ01026,Faun Rickeard,Male,Product Management,"$74,924.65 ",12-Feb-21,1,Permanent,"Hyderabad, India"
+TN02667,Lizzie Mullally,Male,Support,,16-Sep-19,0.2,Permanent,"Auckland, New Zealand"
+TN01912, Fred Dudeney,Male,Services,"$88,689.09 ",02-Oct-19,1,Permanent,"Seattle, USA"
+VT02319,Aluin Churly,Female,Research and Development,"$96,555.53 ",24/01/2019,0.2,Temporary,"Hyderabad, India"
+SQ04960,Gilda Richen,Female,Support,"$71,924.85 ",23/12/2019,1,Permanent,"Chennai, India"
+SQ01829,Mabel Orrow,Male,Product Management,"$31,241.24 ",17/09/2019,1,Permanent,Remote
+SQ00022,Carlin Demke,Male,Business Development,"$110,042.37 ",24/03/2020,1,Permanent,"Columbus, USA"
+TN00214,Jo-anne Gobeau,Female,Training,"$37,902.35 ","Dec 24, 2019",1,Permanent,"Chennai, India"
+TN02798,Thorvald Milliken,Female,Business Development,"$33,031.26 ",03-Jan-19,0.4,Permanent,"Hyderabad, India"
+VT02532,Adey Ryal,Female,Legal,"$32,496.88 ",14/05/2018,1,Temporary,Remote
+PR02321,Evanne  Sheryn,Female,Services,"$81,897.79 ",15/02/2018,1,Permanent,"Auckland, New Zealand"
+SQ03116,Syd Fearn,Male,Engineering,"$108,872.77 ",25/02/2019,1,Permanent,Remote
+SQ02638,Cara Havers,Male,Marketing,"$89,605.13 ",07-Jun-18,1,Permanent,"Seattle, USA"
+VT03704,Egor Minto,,Legal,"$63,447.07 ","Nov 13, 2020",1,Temporary,"Wellington, New Zealand"
+VT04552,Theresita Chasmer,Female,Product Management,"$106,665.67 ",30/07/2018,1,Temporary,"Columbus, USA"
+SQ04665,Collin Jagson,Male,Services,"$100,424.23 ",02/12/2019,1,Permanent,"Auckland, New Zealand"
+VT00336,Giselbert Newlands,Male,Services,"$47,646.95 ",22/11/2019,0.3,Fixed Term,"Chennai, India"
+TN01256,Ignacius Losel,Male,Legal,"$28,481.16 ",26/03/2020,1,Permanent,"Hyderabad, India"
+SQ01962,Lezlie Philcott,Female,Research and Development,,08/02/2019,1,Permanent,Remote
+PR03271,Stan  Tolliday,Female,Sales,"$39,535.49 ",24/10/2018,0.3,Permanent,Remote
+VT01101,Adela Dowsett,Male,Support,"$95,017.10 ",02/07/2018,1,Fixed Term,"Seattle, USA"
+TN04660,Thedrick Bothwell,Male,Business Development,"$69,764.10 ",30/12/2020,1,Fixed Term,"Seattle, USA"
+VT00596,Letisha Carrett,Female,Sales,"$84,598.88 ",12-Oct-20,1,Fixed Term,"Seattle, USA"
+VT03552,Karyn Creeghan,Male,Engineering,"$36,536.26 ","Jun 11, 2021",1,Temporary,"Hyderabad, India"
+TN00083,Tammi Lackham,Female,Business Development,"$61,688.77 ",03-Sep-18,0.9,Permanent,"Chennai, India"
+TN01389,Shantee  D'Antonio,Female,Product Management,,21-Dec-20,1,Permanent,"Seattle, USA"
+SQ02643,Niko MacGille,Female,Engineering,"$88,425.08 ","Jul 16, 2019",1,Permanent,"Hyderabad, India"
+SQ00914,Ansley Gounel,Female,Product Management,"$38,438.24 ","May 11, 2020",1,Permanent,"Chennai, India"
+TN02674,Antonetta  Coggeshall,Male,Sales,"$96,753.78 ",25/10/2021,1,Permanent,"Auckland, New Zealand"
+VT01893,Lindy Guillet,Male,Training,"$112,778.28 ",30/05/2018,1,Fixed Term,Remote
+TN02727,Wald Bountiff,Female,Support,"$28,974.03 ",25-Sep-19,1,Permanent,"Auckland, New Zealand"
+VT01323,Lissy McCoy,Female,Business Development,"$86,233.83 ",29-Aug-19,1,Fixed Term,"Chennai, India"
+SQ03350,Felice McMurty,Female,Product Management,"$66,865.49 ",18-Feb-19,1,Permanent,"Seattle, USA"
+PR03886,Edd  MacKnockiter,Male,Accounting,"$119,022.49 ",23/08/2021,1,Permanent,"Auckland, New Zealand"
+PR00746,Hogan Iles,Female,Accounting,"$114,177.23 ",18-Mar-20,1,Permanent,"Wellington, New Zealand"
+SQ03387,Robinia Scholling,Female,Human Resources,"$100,731.95 ","Apr 15, 2020",1,Permanent,"Auckland, New Zealand"
+SQ00105,Melisa Knott,Female,Training,"$86,010.54 ",05/03/2018,1,Permanent,"Chennai, India"
+SQ02424,Novelia Pyffe,Male,Accounting,"$52,270.22 ",25/02/2019,0.3,Permanent,"Chennai, India"
+VT01703,Abigael Basire,Male,Engineering,"$61,624.77 ",26/11/2018,0.3,Fixed Term,"Hyderabad, India"
+SQ02703,North Bertomeu,Female,Marketing,"$104,903.79 ",03-Jul-19,1,Permanent,"Chennai, India"
+SQ03024,Inge Creer,Female,Services,"$69,057.32 ",17/10/2018,1,Permanent,"Wellington, New Zealand"
+TN00735,Caresa Christer,Male,Support,"$59,258.19 ",18/12/2018,0.8,Permanent,"Seattle, USA"
+VT04373,Edi  Hofton,Male,Research and Development,"$28,160.79 ",29-Jan-18,1,Temporary,Remote
+SQ03733,Revkah Antonacci,Male,NULL,"$109,143.17 ",24-Apr-20,1,Permanent,"Wellington, New Zealand"
+VT04467,Carolyn Attack ,Female,Marketing,"$70,755.50 ",16-Sep-20,0.8,Temporary,"Hyderabad, India"
+VT03537,Renaldo Thomassin,Male,Business Development,"$73,360.38 ",21/05/2020,1,Temporary,Remote
+VT01610,Gilles Jaquet,Female,Accounting,"$76,303.82 ",24/12/2018,1,Fixed Term,"Hyderabad, India"
+PR02016,Iris  Wagg,Female,NULL,"$58,861.19 ",08-Jul-19,1,Permanent,"Columbus, USA"
+VT04415,Malory Biles,Female,Training,"$58,744.17 ",12-Mar-18,1,Temporary,"Columbus, USA"
+TN04067,Lea Chaplin,Female,Human Resources,"$73,488.68 ",15-Apr-19,1,Fixed Term,"Seattle, USA"
+TN04175,Hinda Label ,Female,Human Resources,"$92,704.48 ",26-Nov-18,1,Fixed Term,"Columbus, USA"
+VT00687,Adrianne Gave,Male,Engineering,"$78,443.78 ","May 14, 2019",1,Fixed Term,"Hyderabad, India"
+PR01269,Eleonore Airdrie,Female,Engineering,"$97,105.19 ",17/08/2021,1,Permanent,"Columbus, USA"
+TN00579,Rafaelita Blaksland ,Female,Services,"$109,163.39 ",07/07/2020,0.8,Permanent,"Seattle, USA"
+TN03097,Bendite  Bloan,Male,Marketing,"$31,816.57 ",01-Feb-19,0.3,Fixed Term,Remote
+SQ02174,Sidoney Yitzhok,Female,NULL,"$118,442.54 ",28/12/2020,1,Permanent,"Auckland, New Zealand"
+PR02957,Vaughn Carvill,Female,Training,"$84,745.93 ",30-Aug-19,1,Permanent,"Wellington, New Zealand"
+TN02570,Grady Rochelle,Female,Accounting,"$69,163.39 ",24/10/2018,1,Permanent,Remote
+VT00596,Letisha Carrett,Female,Sales,"$84,598.88 ",12-Oct-20,1,Fixed Term,"Seattle, USA"
+TN01601,Melva  Jickells,Female,Product Management,"$68,795.48 ",22/03/2021,0.2,Permanent,Remote
+SQ01730,Austine Littlewood,Female,Services,"$32,269.91 ",03-Sep-18,1,Permanent,Remote
+TN03355,Ruby Cracie,Male,Research and Development,"$78,705.93 ",05-Nov-18,1,Fixed Term,"Seattle, USA"
+VT01246,Zach Polon,Male,Marketing,"$53,535.62 ","Oct 6, 2020",0.5,Fixed Term,"Seattle, USA"
+PR02275,Louise Lamming,Female,Sales,"$41,934.71 ",11/11/2019,1,Permanent,Remote
+TN04166,Tadio  Dowdle,Female,Product Management,"$91,929.69 ",11/09/2020,1,Fixed Term,Remote
+SQ00070,Larissa Ingledow,Male,Research and Development,"$62,281.24 ",21/06/2018,1,Permanent,Remote
+TN01701, Yves Pawlik,Male,Accounting,"$57,925.91 ",17-Apr-19,0.5,Permanent,"Wellington, New Zealand"
+VT03298,Nonah Bissell,Male,Engineering,"$82,239.53 ",16/01/2020,1,Temporary,"Columbus, USA"
+TN04892,Luca Wolstenholme,Male,Engineering,"$53,184.02 ",21-Mar-18,1,Fixed Term,Remote
+PR01055,Gavan Puttan,Male,Accounting,"$35,936.31 ",21/05/2018,1,Permanent,"Chennai, India"
+SQ04437,Hephzibah Summerell,Female,Services,"$28,305.08 ",16/10/2019,1,Permanent,Remote
+PR00770,Beryl Burnsyde,Male,Legal,"$29,774.76 ",01-Oct-20,1,Permanent,"Wellington, New Zealand"
+VT01762,Mata Fishley,Male,Accounting,"$102,515.81 ",12/03/2020,1,Fixed Term,"Chennai, India"
+TN04428,Tadio Audritt,,Human Resources,"$99,448.78 ",08-Jan-19,1,Fixed Term,"Wellington, New Zealand"
+TN01601,Melva  Jickells,Female,Product Management,"$68,795.48 ",22/03/2021,0.2,Permanent,Remote
+TN03575,Janina Wolverson,Female,Research and Development,"$99,683.67 ",04-Feb-19,1,Fixed Term,"Seattle, USA"
+VT04273,Brad Gumb,Male,Accounting,"$38,825.18 ",19/08/2019,1,Temporary,Remote
+SQ00187,Karlen McCaffrey,Female,Services,"$71,229.42 ",01/12/2020,1,Permanent,"Hyderabad, India"
+PR00113,Van Tuxwell,Female,Business Development,"$80,695.74 ",17/09/2018,1,Permanent,"Columbus, USA"
+PR01383,Addi Studdeard,Female,Product Management,"$72,502.61 ",08/02/2021,1,Permanent,"Wellington, New Zealand"
+TN00258,Joyce Leyband,Female,Product Management,"$68,197.90 ",15/10/2020,1,Permanent,"Auckland, New Zealand"
+VT00839,Tulley Chiddy,Female,Accounting,,05-Feb-19,1,Fixed Term,"Columbus, USA"
+VT00476,Adolph  Hartin,Male,Product Management,"$89,960.60 ",19/02/2019,1,Fixed Term,"Auckland, New Zealand"
+SQ04934,Pedro St. Hill,Male,Engineering,,11/01/2021,0.7,Permanent,"Seattle, USA"
+TN01256,Ignacius Losel,Male,Legal,"$28,481.16 ",26/03/2020,1,Permanent,"Hyderabad, India"
+VT04093,Ewart Hovel,Female,Training,"$116,767.63 ",28/04/2020,0.4,Temporary,"Chennai, India"
+TN01566,Fonzie O'Shea ,Male,Product Management,"$80,360.41 ",02-Dec-20,1,Permanent,Remote
+PR04851,Rodina Drinan,Female,Sales,"$77,045.44 ",20-Jun-19,1,Permanent,Remote
+PR00007,Torrance  Collier,Female,Training,"$96,135.75 ",13-Jul-20,0.3,Permanent,"Wellington, New Zealand"
+SQ03491,Freda Legan,Female,Sales,"$102,129.37 ",19-Jul-21,1,Permanent,"Columbus, USA"
+SQ02465,Bernie Gorges,Female,Training,"$99,965.97 ",02-Feb-18,1,Permanent,Remote
+VT00194,Violante Courtonne,Female,Product Management,"$49,625.64 ",07/07/2021,0.5,Fixed Term,Remote
+TN00328,Jeannie Petracco,Female,Engineering,"$94,815.28 ",06-Dec-18,1,Permanent,"Seattle, USA"
+PR03137,Nolan  Tortis,Male,Support,"$36,714.38 ",10/12/2020,1,Permanent,"Chennai, India"
+PR00246,Husein Augar,Female,Marketing,"$67,905.80 ",29/12/2020,1,Permanent,Remote
+SQ02371,Alida Welman,Male,Human Resources,"$69,862.38 ","Dec 24, 2018",1,Permanent,"Wellington, New Zealand"
+PR01956, Jamesy O'Ferris,Male,Accounting,"$36,547.58 ",12/11/2018,1,Permanent,Remote
+VT04350,Trix Lutsch,Male,Business Development,"$106,400.02 ",09-Jul-20,1,Temporary,"Chennai, India"
+SQ02035,Anni Izzard,Male,Human Resources,"$103,494.94 ","Jun 5, 2018",1,Permanent,Remote
+TN02674,Antonetta  Coggeshall,Male,Sales,"$96,753.78 ",25/10/2021,1,Permanent,"Auckland, New Zealand"
+PR00113,Van Tuxwell,Female,Business Development,"$80,695.74 ",17/09/2018,1,Permanent,"Columbus, USA"
+SQ00286,Sile Whorton ,Female,Legal,"$61,213.01 ",18-Jun-21,1,Permanent,"Chennai, India"
+TN02205,Myer McCory,Male,Research and Development,"$69,709.51 ","Jan 7, 2019",1,Permanent,"Hyderabad, India"
+VT00740,Dayle O'Luney,Female,Research and Development,"$46,751.70 ",13/01/2020,1,Fixed Term,"Hyderabad, India"
+PR01476,Joli Jodrelle,Male,Services,"$77,096.05 ",27/04/2018,1,Permanent,"Chennai, India"
+TN03169,Doe Clubley,Female,Product Management,"$67,818.14 ","Nov 2, 2018",0.6,Fixed Term,Remote
+SQ03112,Vlad Strangeway,Male,Product Management,"$77,743.15 ",30-Mar-20,1,Permanent,"Chennai, India"
+PR01943,Erin Androsik,Male,Human Resources,"$48,525.71 ",13-Jun-18,1,Permanent,"Hyderabad, India"
+SQ02035,Anni Izzard,Male,Human Resources,"$103,494.94 ","Jun 5, 2018",1,Permanent,Remote
+VT04350,Trix Lutsch,Male,Business Development,"$106,400.02 ",09-Jul-20,1,Temporary,"Chennai, India"
+TN00243,Elbertine Hiscoe,Female,Training,,23-Jul-20,1,Permanent,"Auckland, New Zealand"
+VT01996,Hali Behnecke,Male,Human Resources,"$65,569.36 ",12/07/2018,1,Fixed Term,"Auckland, New Zealand"
+SQ01998,Layton Crayden,Male,Product Management,"$40,445.29 ",16/07/2021,1,Permanent,"Chennai, India"
+SQ04934,Pedro St. Hill,Male,Engineering,$0.00 ,11/01/2021,0.7,Permanent,"Seattle, USA"
+SQ02624,Gwenneth Fealey,Female,NULL,"$114,772.32 ",24-Feb-21,1,Permanent,"Columbus, USA"
+SQ02565,Konstantin Timblett,Female,Training,"$56,253.81 ",13-Aug-21,1,Permanent,"Auckland, New Zealand"
+SQ02582,Grier Kidsley,Female,Product Management,"$51,798.25 ",19-Jul-19,1,Permanent,"Hyderabad, India"
+TN02397,Mendel  Gentsch,Male,Human Resources,"$28,329.77 ",29-Oct-18,1,Permanent,"Seattle, USA"
+TN04265, Rey Chartman,Female,Training,"$93,964.30 ",15/09/2021,0.4,Fixed Term,"Hyderabad, India"
+TN02204,Aldrich Glenny,Male,Business Development,"$90,884.32 ",27/07/2020,0.5,Permanent,"Columbus, USA"
+PR01306,Patti Dradey,Male,Services,"$84,742.86 ",24-Sep-20,1,Permanent,"Auckland, New Zealand"
+VT03771,Marjie Bamford,Male,Sales,"$80,772.92 ","Nov 2, 2020",1,Temporary,Remote
+SQ04613,Kelly Corkitt,Female,Human Resources,"$85,264.38 ","Apr 30, 2018",1,Permanent,"Chennai, India"
+SQ04116,Claretta MacQuist,Male,Human Resources,,18-Feb-19,1,Permanent,"Columbus, USA"
+VT03421,Alic Bagg,Male,Legal,"$113,747.56 ",15-Mar-21,0.7,Temporary,"Columbus, USA"
+PR02436,Marmaduke Worssam,Female,Engineering,"$78,378.20 ",31/12/2018,0.4,Permanent,Remote
+VT00534,Roselle Wandrach,Male,Sales,"$91,314.75 ",10/04/2020,1,Fixed Term,"Seattle, USA"
+PR03804,Vere Kulic,Male,Legal,"$66,572.58 ",28-Dec-20,1,Permanent,"Chennai, India"
+TN01396,Koral Gerriet,Male,Support,"$30,077.45 ",09/01/2019,1,Permanent,"Wellington, New Zealand"
+TN02377,Anjela Spancock,,Accounting,"$98,012.63 ",11/11/2019,1,Permanent,Remote
+PR03532,Crawford Scad,Male,Human Resources,"$72,876.91 ",07/01/2020,1,Permanent,Remote
+TN02988,Hobie Stockbridge,Male,Engineering,"$92,943.89 ",10/11/2021,1,Permanent,"Hyderabad, India"
+VT04905,Bryant Scamp,Female,Human Resources,"$29,808.07 ",10-Jul-18,0.3,Temporary,"Hyderabad, India"
+PR04366,Carry Loblie,Female,Sales,"$47,551.89 ",03/01/2019,1,Permanent,"Auckland, New Zealand"
+TN03032,Debera Gow ,Female,Research and Development,"$39,700.82 ",07/01/2021,0.8,Permanent,"Chennai, India"
+TN04775,Desi Peniman,Female,Legal,"$31,089.22 ",07/11/2019,1,Fixed Term,"Chennai, India"
+SQ03625, Fidela Artis,Female,Sales,"$78,020.39 ",09/03/2020,1,Permanent,Remote
