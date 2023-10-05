@@ -1,7 +1,7 @@
 # Employee-Data-Sql-Portfolio
 <hr>
 
-this repository is created to do data exploration on a dataset 'Employee Data'. As this is my first data exploration project, Here my emphasis is on actually cleaning dataset. This dataset is downloaded from the internet randomly and I got it from unknown resource. It contains:
+this repository is created to do data exploration on a dataset 'Employee Data'. Here my emphasis is on actually cleaning dataset. This dataset is downloaded from the internet randomly and I got it from unknown resource. It contains:
 
 *9 Columns* :
 - Emp_ID as Text                           
