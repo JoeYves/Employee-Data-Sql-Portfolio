@@ -1,5 +1,5 @@
 
-select Start_Date from Project_Practice;
+select * from Project_Practice;
 
 -- Our dataset information
 desc Project_Practice.data_cleaning1;  
