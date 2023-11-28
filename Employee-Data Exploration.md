@@ -15,7 +15,7 @@
 First, saved the original copy of data as 'data_cleaning1.csv'
 
 ```sql
-select * from Project_Practice.data_cleaning1;      1,0
+select * from Project_Practice.data_cleaning1;     
 ```
 OUT:
 
@@ -27,7 +27,7 @@ OUT:
 We have to make sure that our dataset does not contain some repeatings data in its columns.
 
 ```sql
-SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      2,1
+SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      
 group by  Emp_ID,Name
 having count(Name)>1 ; 
 ```
@@ -39,7 +39,7 @@ they are 35 duplicates. they should be removed and save table.
 
 ```sql
 WITH No_Duplicates AS      
-(select  distinct(Emp_ID)AS Dist_Emp_ID,TRIM(Name) AS Name,           3,2
+(select  distinct(Emp_ID)AS Dist_Emp_ID,TRIM(Name) AS Name,           
 Gender, Department,  Start_Date, FTE, 
 Employee_type,Salary,Work_location 
 from Project_Practice.data_cleaning1
@@ -59,7 +59,7 @@ WE can see that the column name has both first and second names joined together,
 
 ```sql
 SELECT   substring_index(Name,' ',1) AS First_Name,
-		 substring_index(Name,' ',-1) AS Last_Name              4,3
+		 substring_index(Name,' ',-1) AS Last_Name             
 FROM  Project_Practice.no_duplicates; 
 ```
 OUT:
@@ -77,7 +77,7 @@ select  Dist_Emp_ID, substring_index(Name,' ',1) AS First_Name,
 					 trim(substring_index(Work_location,',',1)) AS  City_Location, 
                      trim(substring_index(Work_location,',',-1)) AS Country_Location
 from Project_Practice.No_Duplicates
-order by  Dist_Emp_ID;                                                 5,4
+order by  Dist_Emp_ID;                                                 
 ```
 OUT:
 
@@ -95,7 +95,7 @@ SELECT Dist_Emp_ID, First_Name, Last_Name,
       CASE 
 	      WHEN Gender='' THEN 'Unknown' 
 	      ELSE Gender
-	      END AS Gender_NoBlank,  /* Blanks are removed in Gender field */          6,5
+	      END AS Gender_NoBlank,  /* Blanks are removed in Gender field */          
 		coalesce( Department,'Unknown') AS Department_noNULL, 
 	  CASE 
 		  WHEN Salary='' THEN '$0' 
@@ -116,7 +116,7 @@ OUT:
 
 ```sql
 update Project_Practice.no_duplicates
-set Salary_NoBlank=replace(Salary_NoBlank,'$',' ')                                  7,6
+set Salary_NoBlank=replace(Salary_NoBlank,'$',' ')                                 
 where Salary_NoBlank like '%$%'                             /* you can even use this "
                                                                                    select replace( Salary_NoBlank,'$','') as New_salary
                                                                                    from Project_Practice.no_duplicates " 
@@ -137,7 +137,7 @@ we have also to change its data type from text to double as well.
 set sql_safe_updates=0;
 
 update  Project_Practice.no_duplicates 
-set Salary_NoBlank =trim(replace(Salary_NoBlank,',',''));        -- save changes again as 'no_duplicates' table.      8,7
+set Salary_NoBlank =trim(replace(Salary_NoBlank,',',''));        -- save changes again as 'no_duplicates' table.     
 ```
 OUT:
 
