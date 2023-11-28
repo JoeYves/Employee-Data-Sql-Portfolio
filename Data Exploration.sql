@@ -5,7 +5,7 @@ select * from Project_Practice;
 desc Project_Practice.data_cleaning1;  
 
  /*  Duplicates checking */
-SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
+SELECT  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1
 group by  Emp_ID,Name
 having count(Name)>1 ;    
 
