@@ -6,7 +6,7 @@ select * from Project_Practice.final_cleaned;
  
 select F_Name,L_Name,Salary,count(*) from Project_Practice.final_cleaned
 group by F_Name,L_Name,Salary
-having Count(F_Name) >1 ;   /* Before we do our analysis, there are 6 entries seems to be duplicated but not, because they have different Emp_ID and dates of different years.
+having Count(F_Name) >1 ;   /* Before we do our analysis, there are 6 entries seem to be duplicated but not, because they have different Emp_ID and dates of different years.
                                May be these employees may have been recruited tuice in a company and got to have a new ID.
                                But as I mentioned that this data set is one I collect somewhere on google,I decided to better involve both records.
                                But as an analyst, sometime let's suppose you have a such data, and you encounter a such situation, 
