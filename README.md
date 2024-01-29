@@ -1,7 +1,7 @@
 # Employee-Data-Sql-Portfolio
 <hr>
-
-this repository is created to do data exploration on a dataset 'Employee Data'. Here my emphasis is on actually cleaning dataset. This dataset is downloaded from the internet randomly and I got it from unknown resource. It contains:
+This repository was created to do data exploration on the dataset 'Employee Data'. The source of this dataset is unclear, and it was downloaded at random from the internet. 
+The layout consists of 276 rows and 9 columns.
 
 *9 Columns* :
 - Emp_ID as Text                           
