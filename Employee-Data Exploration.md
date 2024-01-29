@@ -24,7 +24,7 @@ OUT:
 
 * *Duplicates checking:*
 
-We have to make sure that our dataset does not contain some repeatings data in its columns.
+We have to make sure that our dataset does not contain some duplicates data in its columns.
 
 ```sql
 SELECt  Emp_ID,Name,count(Name) from Project_Practice.data_cleaning1      
