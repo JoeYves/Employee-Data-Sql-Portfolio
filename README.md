@@ -1,7 +1,8 @@
 # Employee-Data-Sql-Portfolio
 <hr>
 
-this repository is created to do data exploration on a dataset 'Employee Data'. Here my emphasis is on actually cleaning dataset. This dataset is downloaded from the internet randomly and I got it from unknown resource. It contains:
+This repository was created to do data exploration on the dataset 'Employee Data'. The source of this dataset is unclear, and it was downloaded at random from the internet. 
+Specifically, I've been utilizing SQL queries for EDA and cleaning in order to gain an understanding of the notion of the company's personnel and how their incomes are determined by factors like department or gender. The layout consists of 276 rows and 9 columns.
 
 *9 Columns* :
 - Emp_ID as Text                           
@@ -29,7 +30,7 @@ These columns behave differently, where there are some of the emptiness/missing 
 6. Changing columns datatype for a better data integrity.
 <hr>
 
-I have been using SQL queries to do some EDA and cleaning to try to understand the concept of this unkowncompany's Employees, especially to see how employyes earn their incomes based on how salaries range varry, based on their Gender or their Departments.
+I have been using SQL queries to do some EDA and cleaning to try to understand the concept of this unkown company's Employees, especially to see how employyes earn their incomes based on how salaries range varry based on their Gender or their Departments.
 <hr>
 
 After Some EDA, I tried to do some short analysis on a tidy data so that I can get some insights to draw a meaningful conlusion.
